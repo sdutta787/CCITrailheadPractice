@@ -1,1 +1,12 @@
-{"packageDirectories": [{"path": "force-app", "default": true}], "namespace": null, "sourceApiVersion": "63.0"}
+{
+  "packageDirectories": [
+    {
+      "path": "force-app",
+      "default": true,
+      "package": "Practice1",
+      "versionNumber": "1.0.0.NEXT"
+    }
+  ],
+  "namespace": "cciTrailhead",
+  "sourceApiVersion": "63.0"
+}
