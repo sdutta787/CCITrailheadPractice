@@ -3,6 +3,7 @@ project:
   name: CCITrailheadPractice
   package:
     name: Practice1
+    namespace: cciTrailhead
     api_version: '63.0'
   git:
     default_branch: 'main'

@@ -1,1 +1,19 @@
-{}
+Insert Account:
+  sf_object: Account
+  fields:
+  - Name
+  lookups:
+    ParentId:
+      table:
+      - Account
+      after: Insert Account
+Insert Delivery__c:
+  sf_object: Delivery__c
+  fields:
+  - Name
+  - Scheduled_Date__c
+  - Status__c
+  lookups:
+    Supplier__c:
+      table:
+      - Account
